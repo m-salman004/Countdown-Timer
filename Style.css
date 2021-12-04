@@ -11,12 +11,6 @@ body {
   line-height: 1.5;
   font-size: 0.875rem;
 }
-ul {
-  list-style-type: none;
-}
-a {
-  text-decoration: none;
-}
 img:not(.logo) {
   width: 100%;
 }
