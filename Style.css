@@ -87,3 +87,32 @@ p {
     display: grid;
     place-items: center;
   }
+  .gift-img {
+    margin-bottom: 2rem;
+  }
+  .gift-info h3 {
+    text-transform: uppercase;
+    color: black;
+  }
+  .gift-info p {
+    color: black;
+  }
+  .date {
+    color: black;
+    font-size: 0.85rem;
+  }
+  @media screen and (min-width: 992px) {
+    .section-center {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      place-items: center;
+      gap: 3rem;
+      width: 95vw;
+    }
+    .gift-img {
+      margin-bottom: 0;
+    }
+  }
+  .gift-info p {
+    margin: 2rem 0;
+  }
